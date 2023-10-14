@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    width: 80%;
+    height: 70vh;
+    box-shadow: 5px 5px 25px grey;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.nav{
+    /* width: 100%;
+    height: 40px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7vh;
+}
+
+.cr{
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.newuser{
+    font-size: 20px;
+}
+
+.c{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 40px;
+}
+
+.user{
+   padding-left: 25px;
+   margin-left: 40px;
+   margin-top: 20px;
+}
+
+.user input{
+    position: relative;
+    height: 8vh;
+    width: 28vw;
+    padding-left: 55px;
+    padding-top: 5px;
+    font-size: 1rem;
+    border: 1px solid blueviolet;
+}
+
+.user i{
+    position: absolute;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.pass{
+    padding-left: 25px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.pass input{
+    position: relative;
+    height: 8vh;
+    width: 28vw;
+    padding-left: 55px;
+    padding-top: 5px;
+    font-size: 1rem;
+}
+
+.pass i{
+    position: absolute;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.creative p{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.form{
+    display: flex;
+}
+
+.form .img img{
+    height: 50vh;
+    width: 40vw;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+
+.login h1{
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.login p{
+    font-size: 15px;
+    color: gray;
+    margin-left: 65px;
+}
+
+.login .name{
+    width: 30vw;
+    height: 50px;
+    margin-left: 21px;
+    margin-top: 30px;
+    border:1px solid blueviolet;
+}
+
+.login .password{
+    width: 30vw;
+    height: 50px;
+    margin-left: 21px;
+    margin-top: 10px;
+}
+
+.login i{
+    margin-left: 30px;
+    margin-top: 20px;
+    z-index: 2;
+}
+
+.btn{
+    width: 12vw;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    margin-left: 80px;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.button{
+    display: flex;
+}
+
+.button p{
+    margin-top: 45px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo p{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.logo i{
+    font-size: 20px;
+    margin-top: 30px;
+    word-spacing: 5px;
+    background: lightgray;
+    border-radius: 50px;
+    padding: 10px;
+}
+
